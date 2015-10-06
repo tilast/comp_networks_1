@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DBD52CE41BC3E7E10046CCCC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD52CE31BC3E7E10046CCCC /* main.c */; };
+		DBD52CEB1BC402F90046CCCC /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD52CEA1BC402F90046CCCC /* client.c */; settings = {ASSET_TAGS = (); }; };
+		DBD52CED1BC403060046CCCC /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = DBD52CEC1BC403060046CCCC /* server.c */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,8 @@
 
 /* Begin PBXFileReference section */
 		DBD52CE01BC3E7E10046CCCC /* comp_networks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = comp_networks; sourceTree = BUILT_PRODUCTS_DIR; };
-		DBD52CE31BC3E7E10046CCCC /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		DBD52CEA1BC402F90046CCCC /* client.c */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		DBD52CEC1BC403060046CCCC /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,8 @@
 		DBD52CE21BC3E7E10046CCCC /* comp_networks */ = {
 			isa = PBXGroup;
 			children = (
-				DBD52CE31BC3E7E10046CCCC /* main.c */,
+				DBD52CEA1BC402F90046CCCC /* client.c */,
+				DBD52CEC1BC403060046CCCC /* server.c */,
 			);
 			path = comp_networks;
 			sourceTree = "<group>";
@@ -118,7 +121,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBD52CE41BC3E7E10046CCCC /* main.c in Sources */,
+				DBD52CEB1BC402F90046CCCC /* client.c in Sources */,
+				DBD52CED1BC403060046CCCC /* server.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +239,7 @@
 				DBD52CE91BC3E7E10046CCCC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
